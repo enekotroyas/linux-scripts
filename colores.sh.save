@@ -1,0 +1,6 @@
+ç#!/bin/sh
+
+
+
+echo -e  '\e[0;31mEneko\e[0m'
+
