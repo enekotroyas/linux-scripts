@@ -1,3 +1,12 @@
-read -p "Introduzca una IP" ip
+#!/bin/sh
+echo Vamos ha hacer ping,
 
-if $ip
+echo -n "Dame tu direccion IP: "
+read ip
+
+if [ ${ip} ]
+then
+	ping $ip
+else
+	echo no se puede hacer ping
+fi
