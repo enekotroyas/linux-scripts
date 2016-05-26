@@ -1,0 +1,10 @@
+#!/bin/sh
+echo -n "Dme un nombre: "
+read NOMBRE
+              echo "${NOMBRE} dice: abrid el ordenador " ;;
+        javier)
+                echo "${NOMBRE} dice: Abrid el excel " ;;
+        *)
+                echo "${NOMBRE}? a este no lo conozco"
+esac
+
